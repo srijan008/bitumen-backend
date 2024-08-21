@@ -14,7 +14,10 @@ const port = process.env.PORT || 8000;
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+     origin: [
+      "http://localhost:3000", 
+      "https://vercel.com/srijans-projects-5421643c/frontend/EG8jCmuz1kDdfcBfyyGvaJ9ubWUw"
+    ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
