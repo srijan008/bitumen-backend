@@ -89,7 +89,7 @@ app.post("/dashboard/find", async (req, res) => {
 
     const { lat, lon, altitude, elevation, accuracy, categories } = req.body;
 
-    const backendResponse = await fetch("http://localhost:3003/api", {
+    const backendResponse = await fetch("https://dummyapi-backend-bitumen.onrender.com/api", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
