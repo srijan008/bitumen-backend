@@ -17,7 +17,7 @@ app.use(
   cors({
      origin: [
       "http://localhost:3000", 
-      "https://bitumen-frontendvercel-53954rjo3-srijans-projects-5421643c.vercel.app/"
+      "https://bitumen-frontendvercel.vercel.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
